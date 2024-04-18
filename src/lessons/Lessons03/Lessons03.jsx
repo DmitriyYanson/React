@@ -2,7 +2,7 @@ import "./styles.css";
 import Button from "../../components/Button/Button";
 import AnimalCard from "../../components/AnimalCard/AnimalCard";
 import { lionData, zebraData, normalizeName } from "./data";
-import userAvatar from "../../assets/avatar.jpg";
+import userAvatar from "../../components/assets/avatar.jpg";
 
 // родительский компонет для компонентов <Button />, которые являются дочерними компонентами
 function Lesson03() {
