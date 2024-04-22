@@ -1,18 +1,30 @@
 import "./App.css";
-// import Lesson02 from "./lessons/Lessons02/Lessons02";
+
+// Лекции
+// import Lessons02 from "./lessons/Lessons02/Lessons02";
+// import Lessons03 from "./lessons/Lesson03/Lesson03";
+// import Lessons04 from "./lessons/Lesson04/Lesson04";
+import Lessons05 from "./lessons/Lesson05/Lessons05"
+
+// Домашние работы
 // import Homework02 from "./homeworks/Homework02/Homework02";
-// import Lesson03 from "./lessons/Lessons03/Lessons03";
-// import Homework03 from "./Homeworks/Homework03/Homework03";
-import Lessons04 from "./lessons/Lessons04/Lessons04";
+// import Homerwork03 from "./homeworks/Homework03/Homework03";
+// import Homerwork04 from "./homeworks/Homework04/Homework04";
+
+// Консультации
+// import Consultation01 from "./consultations/Consultation01/Consultation01";
 
 function App() {
   return (
     <div className="App">
-      {/* <Lesson02 /> */}
+      {/* <Lessons02 /> */}
       {/* <Homework02 /> */}
-      {/* <Lesson03 /> */}
-      {/* <Homework03 /> */}
-      <Lessons04/>
+      {/* <Lessons03 /> */}
+      {/* <Consultation01 /> */}
+      {/* <Homerwork03 /> */}
+      {/* <Lessons04 /> */}
+      {/* <Homerwork04 /> */}
+      <Lessons05 />
     </div>
   );
 }
